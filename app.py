@@ -89,5 +89,3 @@ if segmentation_file is not None:
     col2.image(thresh, caption="Thresholding", channels="GRAY")
     col3.image(segmented_kmeans, caption="K-Means Segmentation", channels="BGR")
     col4.image(labels, caption="Watershed Segmentation", channels="JET")
-
-st.success("✔ Processing Complete")
